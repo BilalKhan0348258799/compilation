@@ -1,0 +1,49 @@
+/* Popup Styles */
+#popup {
+  display: none; /* Hidden by default */
+  color: black;
+}
+
+#popup.active {
+  display: flex;
+}
+
+#popup .bg-white {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(0.9);
+}
+
+#popup.active .bg-white {
+  transform: scale(1);
+}
+
+/* General Styling for Form and Section */
+#contact-form input,
+#contact-form textarea {
+  background-color: #f3f4f6; /* Light gray background */
+}
+
+#contact-form button {
+  background-color: #4CAF50;
+  transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #45a049;
+}
+.email-link{
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid blue;
+  border-radius: 5px;
+  /* background-color: #f0f8ff; */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.email-link :hover{
+  background-color: #e0f0ff;
+  color: darkblue;
+  cursor: pointer;
+}
+
